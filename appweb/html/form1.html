@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/form1.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulario 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Información sobre el producto</h4>
+      <form action="">
+        <fieldset class="datos-basicos">
+          <legend>Datos Basicos</legend>
+          <label for="">Nombre</label>
+          <input type="text" placeholder="Nombre" />
+          <label for="">Descripcion</label>
+          <textarea
+            name=""
+            id=""
+            cols="20"
+            rows="5"
+            placeholder="Descripcion..."
+          ></textarea>
+
+          <label for="">Foto</label>
+          <input
+            type="file"
+            accept="image/png, .jpeg, .jpg, image/gif"
+            name="Imagen seleccionada"
+          />
+          <div class="check">
+            <input type="checkbox" name="" id="" />
+            <label for="">Añadir contador</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="datos-economicos">
+          <legend>Datos Economicos</legend>
+
+          <div class="precios">
+            <label for="">Precio $</label>
+            <input type="number" class="precio"/>
+            <label for="">Impuesto</label>
+            <select name="" id="">
+              <option value="">1%</option>
+              <option value="">2%</option>
+              <option value="">3%</option>
+              <option value="" selected>4%</option>
+              <option value="">5%</option>
+              <option value="">6%</option>
+              <option value="">7%</option>
+              <option value="">8%</option>
+              <option value="">9%</option>
+              <option value="">10%</option>
+            </select>
+          </div>
+
+          <h5>Promocion</h5>
+          <input type="radio" name="Promocion" /><label for="">Ninguno</label
+          ><br />
+          <input type="radio" name="Promocion" /><label for=""
+            >Transporte gratuito</label
+          ><br />
+          <input type="radio" name="Promocion" /><label for=""
+            >Descuento del 5%</label
+          >
+        </fieldset>
+
+        <input type="submit">
+      </form>
+    </div>
+  </body>
+</html>

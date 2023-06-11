@@ -1,0 +1,26 @@
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+.datos-basicos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 500px;
+    margin: auto auto;
+}
+
+.container h4{
+    text-align: center;
+}
+
+.datos-economicos{
+    margin-bottom: 20px;
+}
+
+.precio{
+    width: 30px;
+}
